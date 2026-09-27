@@ -162,5 +162,5 @@ async def lineup(ctx):
     embed.set_footer(text="資料來源：MLB Official API")
     await ctx.send(embed=embed)
 
-TOKEN = os.environ.get("DISCORD_TOKEN") or "OTU3MjAyNDU2NDI3NzY5ODc2.GbJ4mS.9NSQXO_F9CU1TFxq8I6F8SgOkX2vCvnOst91eU"
+TOKEN = os.environ.get("DISCORD_TOKEN") or "YOUR_TOKEN_HERE"
 bot.run(TOKEN)
